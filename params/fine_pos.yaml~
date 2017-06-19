@@ -1,0 +1,4 @@
+fine_pos:
+  tolerance: 0.6
+  distLaserCenter: 0.36
+

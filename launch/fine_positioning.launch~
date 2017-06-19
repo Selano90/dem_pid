@@ -1,0 +1,5 @@
+<launch>
+<rosparam file="$(find dem_pid)/params/fine_pos.yaml" command="load" />
+<node pkg="dem_pid" type="insystems_fine_positioning_test2" name="fine_pos" output="screen"  >
+  </node>
+</launch>
